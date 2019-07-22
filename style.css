@@ -1,0 +1,65 @@
+table td {
+    width: 60px;
+    height: 60px;
+}
+
+.game_board {
+    margin: auto;
+    background-color: #fff;
+}
+
+#locker1{
+	border: 10px solid #e01818;
+    padding: 5px;
+    text-align: center;
+    color: #e01818;
+    position: relative;
+    width: 120px;
+    top : 30px;
+    left: 170px;
+}
+
+#locker2{
+	border: 10px solid #1c40ce;
+    padding: 5px;
+    text-align: center;
+    color: #1c40ce;
+    width: 120px;
+    position: relative;
+    top : -220px;
+    left: 1000px;
+}
+
+.main_head{
+	font-size: 20px;
+	position: relative; 
+	top: -30px;
+}
+
+#turn_indicator{
+	padding: 10px;
+	border: 1px solid grey;
+	margin: auto;
+	width: 50%; 
+}
+
+#RollButton{
+	padding: 10px;
+	border: 1px solid grey;
+	margin: auto;
+	width: 50%;
+}
+
+#DiceNoIndicator{
+	padding: 10px;
+	border: 1px solid grey;
+	margin: auto;
+	width: 50%;
+}
+
+.Manual{
+	padding: 10px;
+	border: 1px solid grey;
+	margin: auto;
+	width: 50%;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="token1A.css">
+	<link rel="stylesheet" type="text/css" href="token2A.css">
+	<link rel="stylesheet" type="text/css" href="token1B.css">
+	<link rel="stylesheet" type="text/css" href="token2B.css">
+	<title>Ludo game</title>
+</head>
+<body>
+	<div id="locker1">
+		<p>Locker 1</p>
+		<p id="token1A"> </p>
+        <p id="token2A"> </p>
+	</div>
+   <table class="game_board" border="1px" style="position:relative; top: -100px;text-align: center;">
+   	<tbody>
+   		<tr>
+			<td style="background-color: #d60a0a;"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+		</tr>
+		<tr>
+			<td style="background-color: #f24848"></td>
+			<td colspan="6" rowspan="6">
+				<p class="main_head"><b>Lets play ludo!</b></p>
+				<p id="turn_indicator">turn : A</p>
+				<p id="RollButton">ROLL</p>
+				<p id="DiceNoIndicator">0</p>
+				<p class="Manual" onclick="userDie()">Click me if u want to<br>enter manually!</p>
+			</td>
+            <td></td>
+		</tr>
+        <tr>
+			<td></td>
+			<td colspan="6"></td>
+		</tr>
+        <tr>
+			<td></td>
+			<td colspan="6"></td>
+		</tr>
+        <tr>
+			<td></td>
+			<td colspan="6"></td>
+		</tr>
+        <tr>
+			<td></td>
+			<td colspan="6"></td>
+		</tr>
+        <tr>
+			<td></td>
+			<td colspan="6"  style="background-color: #496eff"></td>
+		</tr>
+		<tr>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td style="background-color: #0033ff"></td>
+		</tr>
+   	</tbody>
+   </table>
+   <div id="locker2">
+   	<p>Locker2</p>
+    <p id="token1B"> </p>
+    <p id="token2B"> </p>
+   </div>
+
+   <script type="text/javascript" src="allEvents.js"></script>
+</body>
+</html>
